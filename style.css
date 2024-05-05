@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    max-width: 540px;
+}
+form{
+    padding: 1.5rem;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+input{
+    padding: 0.5rem;
+}
+button{
+    background-color: darkblue;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+}
+button:hover{
+    background: #2a60b1;
+    cursor: pointer;
+}
